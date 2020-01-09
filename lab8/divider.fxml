@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="241.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jenika.oop.Divider.Controller">
+    <children>
+        <Button layoutX="16.0" layoutY="175.0" mnemonicParsing="false" onAction="#divide" prefHeight="52.0" prefWidth="105.0" text="Divide" />
+        <Button layoutX="385.0" layoutY="175.0" mnemonicParsing="false" onAction="#clear" prefHeight="52.0" prefWidth="105.0" text="Clear" />
+        <TextArea fx:id="firstNumber" layoutX="16.0" layoutY="65.0" prefHeight="34.0" prefWidth="200.0" />
+        <TextArea fx:id="secondNumber" layoutX="290.0" layoutY="65.0" prefHeight="34.0" prefWidth="200.0" />
+        <Label fx:id="output" layoutX="218.0" layoutY="112.0" prefHeight="52.0" prefWidth="75.0">
+            <font>
+                <Font size="24.0" />
+            </font></Label>
+        <Label fx:id="firstException" layoutX="14.0" prefHeight="52.0" prefWidth="200.0" />
+        <Label fx:id="secondException" layoutX="290.0" prefHeight="52.0" prefWidth="200.0" />
+    </children>
+</AnchorPane>
